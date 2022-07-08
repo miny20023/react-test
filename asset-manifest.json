@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/miny20023/react-test/static/css/main.9dafe93c.css",
+    "main.js": "/miny20023/react-test/static/js/main.444fd21e.js",
+    "static/media/NotoSansCJKkr-Bold.otf": "/miny20023/react-test/static/media/NotoSansCJKkr-Bold.9b1db29fc2a12922bfa6.otf",
+    "static/media/NotoSansCJKkr-Medium.otf": "/miny20023/react-test/static/media/NotoSansCJKkr-Medium.a89c0e766c9f7264d04e.otf",
+    "static/media/NotoSansCJKkr-Light.otf": "/miny20023/react-test/static/media/NotoSansCJKkr-Light.528e085c44a08c3b32ca.otf",
+    "static/media/Group 557.svg": "/miny20023/react-test/static/media/Group 557.8e6f42f86cfa3d9498518defc9407b65.svg",
+    "static/media/Paper Fail2.svg": "/miny20023/react-test/static/media/Paper Fail2.3df45149c9cf046062ad8b2ef7e78594.svg",
+    "static/media/Vector9.svg": "/miny20023/react-test/static/media/Vector9.aaf10456c545c84b41a44e315aae6bae.svg",
+    "static/media/edit form.svg": "/miny20023/react-test/static/media/edit form.be8029f506b0fb000ce38dc143e62c84.svg",
+    "static/media/Paper Fail.svg": "/miny20023/react-test/static/media/Paper Fail.02f1cdea89f3e4492fec1ff2529031c2.svg",
+    "static/media/Delete.svg": "/miny20023/react-test/static/media/Delete.e2cc52ad1d21fcc2a2e19f862dbfb6fd.svg",
+    "static/media/Vector3.svg": "/miny20023/react-test/static/media/Vector3.b363a799042d749fa8dd344be5535bef.svg",
+    "static/media/Vector2.svg": "/miny20023/react-test/static/media/Vector2.be2f7c884f373d81bd8445811f01cd05.svg",
+    "index.html": "/miny20023/react-test/index.html",
+    "static/media/Group 682.svg": "/miny20023/react-test/static/media/Group 682.9eb34d973099e3fd4d7d65d4f456a31f.svg",
+    "static/media/checkON.svg": "/miny20023/react-test/static/media/checkON.ea36e45132ed7833a629c3200335d6b7.svg",
+    "static/media/password.svg": "/miny20023/react-test/static/media/password.cfcd7d42776d6725116c.svg",
+    "static/media/Vector1.svg": "/miny20023/react-test/static/media/Vector1.5c9acea829baae750a9c81f83c67656a.svg",
+    "static/media/mainlogo.svg": "/miny20023/react-test/static/media/mainlogo.b7ebd3d2f3fb48d6ac2670c1c91613c5.svg",
+    "static/media/Group 978.svg": "/miny20023/react-test/static/media/Group 978.1b288854b2ae0dc9c9eacb0a3f8be7fa.svg",
+    "static/media/logo.svg": "/miny20023/react-test/static/media/logo.8e7943cece3fe1a87e421b0c7324af67.svg",
+    "static/media/email.svg": "/miny20023/react-test/static/media/email.264ada1b1539939ac303.svg",
+    "static/media/MagnifyingGlass.svg": "/miny20023/react-test/static/media/MagnifyingGlass.a9e3527a8c5f35e4aa3d785831f68586.svg",
+    "static/media/Vector8.svg": "/miny20023/react-test/static/media/Vector8.c256360e2f6b2778c0d416768dc8eb5b.svg",
+    "static/media/Vector7.svg": "/miny20023/react-test/static/media/Vector7.09faa367facc86e1e75ff61d0ee71dae.svg",
+    "static/media/Group 683.svg": "/miny20023/react-test/static/media/Group 683.329b7e394ba26adad4fcdc80200d19d9.svg",
+    "static/media/Vector5.svg": "/miny20023/react-test/static/media/Vector5.81d3740f80006c95da0fe56d66c45d8b.svg",
+    "static/media/left.svg": "/miny20023/react-test/static/media/left.5e08b3872fda9a6d7954496a5c4298a0.svg",
+    "static/media/right.svg": "/miny20023/react-test/static/media/right.77db3c3f6cc7a0ba07aee9a5b42ac8d5.svg",
+    "static/media/Vector6.svg": "/miny20023/react-test/static/media/Vector6.7d174e4d7ce4a27cdd06015388d97307.svg",
+    "static/media/down.svg": "/miny20023/react-test/static/media/down.c5394b8356b1ff941c89.svg",
+    "main.9dafe93c.css.map": "/miny20023/react-test/static/css/main.9dafe93c.css.map",
+    "main.444fd21e.js.map": "/miny20023/react-test/static/js/main.444fd21e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dafe93c.css",
+    "static/js/main.444fd21e.js"
+  ]
+}
