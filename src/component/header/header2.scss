@@ -1,0 +1,61 @@
+@import '../../viewport.scss';
+@import '../../fontscale.scss';
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    /* 헤더 전체 div */
+.hb {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+/* 로고용 div */
+.hb_d1 {
+    flex: get_vw(266px);
+    padding: get_vh(18px) 0 get_vh(16px) get_vw(120px);
+}
+
+.logo {
+    width: get_vw(22px);
+    height: get_vh(26px);
+}
+
+/* 상호용 div */
+.hb_d2 {
+    flex: get_vw(1458px);
+    padding: get_vh(18.95px) 0 get_vh(17.89px) 0;
+}
+
+.hb_a2 {
+    color: #FFFFFF;
+    line-height: get_fontScale(22px);
+    font-size : get_fontScale(15px);
+    font-family: 'NotoSansCJKkr-Light';
+    text-decoration: none;
+}
+
+/* 로그아웃용 div  */
+.hb_d3 {
+    flex: get_vw(196px);
+}
+
+.hb_bu {
+    background: #FFFFFF;
+    background-color:rgba(255, 255, 255, 0.2);
+    border: get_fontScale(1px) solid rgba(#C4C4C4,0.2);
+    border-radius: 5px;
+    margin: get_vh(16px) 0 get_vh(16px) 0;
+    height: get_vh(28px);
+    width: get_vw(68px);
+}
+
+.hb_span {
+    color: #FFFFFF;
+    width: get_vw(48px);
+    height: get_vh(20px);
+    font-size: get_fontScale(13px);
+    line-height: get_fontScale(19px);
+    font-family: 'NotoSansCJKkr-Light';
+}
+}

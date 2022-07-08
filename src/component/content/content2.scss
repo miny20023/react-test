@@ -1,0 +1,9 @@
+@import '../../viewport.scss';
+@import '../../fontscale.scss';
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    /* Content전체 div */
+.content_start {
+    width: 100%;
+}
+}

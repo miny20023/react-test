@@ -1,0 +1,10 @@
+$vw_viewport : 1920px;
+$vh_viewport : 969px;
+
+@function get_vw($set_px) {
+    @return $set_px * 100 / $vw_viewport * 1vw
+};
+
+@function get_vh($set_px) {
+    @return $set_px * 100 / $vh_viewport * 1vh
+};

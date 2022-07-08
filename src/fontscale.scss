@@ -1,0 +1,17 @@
+@import './viewport.scss';
+
+/* vw와 vh중 변화된 크기가 더 낮은 쪽 뷰포트 사용 */
+@function get_fontScale($set_fontSize)
+{
+    @if(100vw / 100vh > 1920 / 969) {
+        @return get_vh($set_fontSize);
+    }
+
+    @else if(100vw / 100vh == 1920 / 969) {
+        @return get_vh($set_fontSize);
+    }
+
+    @else {
+        @return get_vw($set_fontSize);
+    }
+};

@@ -1,0 +1,145 @@
+@import '../../../viewport.scss';
+@import '../../../fontscale.scss';
+
+/* 항목 선택, 비/활성화, 게시글 삭제 control부 & 서치칸 */
+.userInfo_searchAndControl {
+    width: inherit;
+    height: 40px;
+    display: flex;
+    padding: 0 125px 0 50px;
+}
+
+.userInfo_control, .userInfo_search {
+    flex: 1;
+    float: left;
+}
+
+.userInfo_searchAndControl ul {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.userInfo_searchAndControl li {
+    list-style: none;
+    float: left;
+    padding-right: 25px;
+    font-family: 'NotoSansCJKkr-Medium';
+    color: #949DAA;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.userInfo_searchAndControl li img {
+    float: left;
+    margin-right: 5px;
+    width: 16px;
+}
+
+.userInfo_search {
+    float: right;
+}
+
+.userInfo_searchBox {
+    float: right;
+}
+
+.userInfo_searchBox div {
+    display: inline-block;
+    border: 1px solid #DBDFE6;
+    border-radius: 7px;
+    padding: 7px 15px 7px 17px;
+    background-color: #fcfcff;
+}
+
+.userInfo_searchText {
+    width: 400px;
+    border: 0px;
+    font-size: 13px;
+    outline: none;
+}
+
+.userInfo_searchText::placeholder {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 13px;
+    line-height: 19px;
+    align-items: center;
+    color: #B5B5B5;
+}
+
+.userInfo_searchText:focus::placeholder
+{
+    color: transparent;
+}
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    
+    /* 항목 선택, 비/활성화, 게시글 삭제 control부 & 서치칸 */
+.userInfo_searchAndControl {
+    width: inherit;
+    height: get_vh(40px);
+    display: flex;
+    padding: 0 get_vh(125px) 0 get_vh(50px);
+}
+
+.userInfo_control, .userInfo_search {
+    flex: 1;
+    float: left;
+}
+
+.userInfo_searchAndControl ul {
+    margin: get_vh(10px) 0;
+    padding: 0;
+}
+
+.userInfo_searchAndControl li {
+    list-style: none;
+    float: left;
+    padding-right: get_vw(25px);
+    font-family: 'NotoSansCJKkr-Medium';
+    color: #949DAA;
+    font-size: get_fontScale(13px);
+    line-height: 150%;
+}
+
+.userInfo_searchAndControl li img {
+    float: left;
+    margin-right: get_vw(5px);
+    width: get_vw(16px);
+}
+
+.userInfo_search {
+    float: right;
+}
+
+.userInfo_searchBox {
+    float: right;
+}
+
+.userInfo_searchBox div {
+    display: inline-block;
+    border: get_fontScale(1px) solid #DBDFE6;
+    border-radius: 7px;
+    padding: get_vh(7px) get_vw(15px) get_vh(7px) get_vw(17px);
+    background-color: #fcfcff;
+}
+
+.userInfo_searchText {
+    width: get_vw(400px);
+    border: 0px;
+    font-size: get_fontScale(13px);
+    outline: none;
+}
+
+.userInfo_searchText::placeholder {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: get_fontScale(13px);
+    line-height: get_fontScale(19px);
+    align-items: center;
+    color: #B5B5B5;
+}
+
+.userInfo_searchText:focus::placeholder
+{
+    color: transparent;
+}
+}

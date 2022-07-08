@@ -1,0 +1,29 @@
+@import '../../../viewport.scss';
+@import '../../../fontscale.scss';
+
+/* 사용자 정보 라고 적혀있는 곳 */
+.userInfo_title {
+    display: inline-block;
+    width: inherit;
+}
+
+.userInfo_p {
+    font-family: 'NotoSansCJKkr-Bold';
+    font-size:23px;
+    padding: 32px 0 0 53px;
+}
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    
+    /* 사용자 정보 라고 적혀있는 곳 */
+.userInfo_title {
+    display: inline-block;
+    width: inherit;
+}
+
+.userInfo_p {
+    font-family: 'NotoSansCJKkr-Bold';
+    font-size:get_fontScale(23px);
+    padding: get_vh(32px) 0 0 get_vw(53px);
+}
+}

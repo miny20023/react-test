@@ -1,0 +1,58 @@
+/*
+    display: flex; 말고 grid도 좋아보임
+*/
+
+/* 헤더 전체 div */
+.hb {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/* 로고용 div */
+.hb_d1 {
+    flex: 266px;
+    padding: 18px 0 16px 120px;
+}
+
+.logo {
+    width: 22px;
+    height: 26px;
+}
+
+/* 상호용 div */
+.hb_d2 {
+    flex: 1458px;
+    padding: 18.95px 0 17.89px 0;
+}
+
+.hb_a2 {
+    color: #FFFFFF;
+    line-height: 22px;
+    font-size : 15px;
+    font-family: 'NotoSansCJKkr-Medium';
+    text-decoration: none;
+}
+
+/* 로그아웃용 div  */
+.hb_d3 {
+    flex: 196px;
+}
+
+.hb_bu {
+    background: #FFFFFF;
+    background-color:rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(#C4C4C4,0.2);
+    border-radius: 5px;
+    margin: 16px 0 16px 0;
+    height: 28px;
+    width: 68px;
+}
+
+.hb_span {
+    color: #FFFFFF;
+    width: get_vw(48px);
+    height: get_vh(20px);
+    font-size: 13px;
+    font-family: 'NotoSansCJKkr-Light';
+}

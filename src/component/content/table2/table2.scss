@@ -1,0 +1,97 @@
+@import '../../../viewport.scss';
+@import '../../../fontscale.scss';
+
+/* 하단 테이블 표 */
+.userInfo_detail2 {
+    width: inherit;
+}
+
+.table2_outer {
+    border: 1px solid #EBEBEF;
+    border-radius: 9px;
+    margin: 26px 90px 100px 50px;
+    width: 1460px;
+}
+
+/* 하단 테이블 중 맨 밑 */
+.lastLow_select {
+    text-align: left;
+    padding: 12px;
+}
+
+.lastLow_select select {
+    width: 160px;
+    height: 38px;
+    border: 1px solid #dfdfe6;
+    border-radius: 6px;
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 13px;
+    line-height: 19px;
+    color: #B2B7BB;
+    padding-left: 17px;
+    background: url('../../../icon/down.svg') no-repeat 95% 50% / 16px;
+    appearance: none;
+}
+
+.lastLow_pageNum {
+    text-align: right;
+    align-items: center;
+}
+
+.lastLow_pageNum a {
+    padding-left: 18px;
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 11px;
+    line-height: 16px;
+    color: #B2B7BB;
+    text-decoration: none;
+}
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    
+    /* 하단 테이블 표 */
+.userInfo_detail2 {
+    width: inherit;
+}
+
+.table2_outer {
+    border: get_fontScale(1px) solid #EBEBEF;
+    border-radius: 9px;
+    margin: get_vh(26px) get_vw(90px) get_vh(100px) get_vw(50px);
+    width: get_vw(1460px);
+}
+
+/* 하단 테이블 중 맨 밑 */
+.lastLow_select {
+    text-align: left;
+    padding: get_vw(12px) get_vh(12px);
+}
+
+.lastLow_select select {
+    width: get_vw(160px);
+    height: get_vh(38px);
+    border: get_fontScale(1px) solid #dfdfe6;
+    border-radius: 6px;
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: get_fontScale(13px);
+    line-height: get_fontScale(19px);
+    color: #B2B7BB;
+    padding-left: get_vw(17px);
+    background: url('../../../icon/down.svg') no-repeat 95% 50% / 16px;
+    appearance: none;
+}
+
+.lastLow_pageNum {
+    text-align: right;
+    align-items: center;
+}
+
+.lastLow_pageNum a {
+    padding-left: get_vw(18px);
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: get_fontScale(11px);
+    line-height: get_fontScale(16px);
+    color: #B2B7BB;
+    text-decoration: none;
+}
+}

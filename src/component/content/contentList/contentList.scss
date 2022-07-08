@@ -1,0 +1,57 @@
+@import '../../../viewport.scss';
+@import '../../../fontscale.scss';
+
+/* 상단 표 아래에 있는 리스트, 분류 같은 곳? */
+.userInfo_contentList {
+    display: inline-block;
+    width: inherit;
+    height: 105px;
+}
+
+.userInfo_contentList ul{
+    padding: 50px 0 31px 50px;
+    margin: 0;
+    height: inherit;
+}
+
+.userInfo_contentList li {
+    list-style: none;
+    float: left;
+    font-family: 'NotoSansCJKkr-Bold';
+    font-size: 16px;
+    color: #C4CAD4;
+    letter-spacing: 0.2px;
+}
+
+.userInfo_contentList li:nth-child(n+2) {
+    padding-left: 40px;
+}
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    
+    /* 상단 표 아래에 있는 리스트, 분류 같은 곳? */
+.userInfo_contentList {
+    display: inline-block;
+    width: inherit;
+    height: get_vh(105px);
+}
+
+.userInfo_contentList ul{
+    padding: get_vh(50px) 0 get_vh(31px) get_vw(50px);
+    margin: 0;
+    height: inherit;
+}
+
+.userInfo_contentList li {
+    list-style: none;
+    float: left;
+    font-family: 'NotoSansCJKkr-Bold';
+    font-size: get_fontScale(16px);
+    color: #C4CAD4;
+    letter-spacing: get_fontScale(0.2px);
+}
+
+.userInfo_contentList li:nth-child(n+2) {
+    padding-left: get_vw(40px);
+}
+}

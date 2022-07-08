@@ -1,0 +1,115 @@
+@import '../../../viewport.scss';
+@import '../../../fontscale.scss';
+
+.table2_tr1_col10, .table2_tr2_col10, .table2_lastLow_col10 {
+    padding: 0 55px 0 20px;
+} 
+
+
+/* 하단 테이블 표 중에서 헤더 될 부분 */
+.table2_tr1_col10 {
+    width: auto;
+    height: 50px;
+    background-color: #FBFBFD;
+    display: grid;
+    //grid-template-columns: 58px 88px 130px 385px 122px 130px 135px 108px 107px 120px;
+    grid-template-columns: 58fr 88fr 130fr 385fr 122fr 130fr 135fr 108fr 107fr 120fr;
+    align-items: center;
+    text-align: center;
+}
+
+.table2_tr1_col10 div {
+    font-family: 'NotoSansCJKkr-Bold';
+    color: #777777;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.002em;
+}
+
+/* 하단 테이블 표 중에서 내용물이 될 부분 */
+.table2_tr2_col10 {
+    width: auto;
+    height: 65px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #EBEBEF;
+    display: grid;
+    //grid-template-columns: 58px 88px 130px 385px 122px 130px 135px 108px 107px 120px;
+    grid-template-columns: 58fr 88fr 130fr 385fr 122fr 130fr 135fr 108fr 107fr 120fr;
+    align-items: center;
+    text-align: center;
+}
+
+.table2_tr2_col10 div {
+    font-family: 'NotoSansCJKkr-Light';
+    color: #777777;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.002em;
+}
+
+.table2_lastLow_col10 {
+    width: auto;
+    height: 75px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #EBEBEF;
+    display: grid;
+    grid-template-columns: 1068px 320px;
+    align-items: center;
+}
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    .table2_tr1, .table2_tr2, .table2_lastLow {
+        padding: 0 get_vw(55px) 0 get_vw(20px);
+    } 
+    
+    /* 하단 테이블 표 중에서 헤더 될 부분 */
+    .table2_tr1_col10 {
+        width: auto;
+        height: get_vh(50px);
+        background-color: #FBFBFD;
+        display: grid;
+        grid-template-columns: get_vw(58px) get_vw(88px) get_vw(130px) get_vw(385px) get_vw(122px) get_vw(130px) get_vw(135px) get_vw(108px) get_vw(107px) get_vw(120px);
+       // grid-template-columns: 58fr 88fr 130fr 385fr 122fr 130fr 135fr 108fr 107fr 120fr;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .table2_tr1_col10 div {
+        font-family: 'NotoSansCJKkr-Bold';
+        color: #777777;
+        font-size: get_fontScale(11px);
+        line-height: get_fontScale(16px);
+        letter-spacing: 0.002em;
+    }
+    
+    /* 하단 테이블 표 중에서 내용물이 될 부분 */
+    .table2_tr2_col10 {
+        width: auto;
+        height: get_vh(65px);
+        background-color: #FFFFFF;
+        border-top: get_fontScale(1px) solid #EBEBEF;
+        display: grid;
+        grid-template-columns: get_vw(58px) get_vw(88px) get_vw(130px) get_vw(385px) get_vw(122px) get_vw(130px) get_vw(135px) get_vw(108px) get_vw(107px) get_vw(120px);
+        //grid-template-columns: 58fr 88fr 130fr 385fr 122fr 130fr 135fr 108fr 107fr 120fr;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .table2_tr2_col10 div {
+        font-family: 'NotoSansCJKkr-Light';
+        color: #777777;
+        font-size: get_fontScale(11px);
+        line-height: get_fontScale(16px);
+        letter-spacing: 0.002em;
+    }
+    
+    .table2_lastLow_col10 {
+        width: auto;
+        height: get_vh(75px);
+        background-color: #FFFFFF;
+        border-top: get_fontScale(1px) solid #EBEBEF;
+        display: grid;
+        grid-template-columns: get_vw(1068px) get_vw(320px);
+        align-items: center;
+    }
+}

@@ -1,0 +1,69 @@
+@import '../../../viewport.scss';
+@import '../../../fontscale.scss';
+
+/* breadcrumb  */
+/* 1 > 2 이런식으로 되어있는 곳 */
+.userInfo_breadcrumb {
+    display: inline-block;
+    width: inherit;
+}
+
+ul.breadcrumb {
+    font-family: 'NotoSansCJKkr-Light';
+    list-style: none;
+    float: right;
+    margin: 0 115px 0 0;
+    width: 152px;
+    height: 19px;
+}
+
+ul.breadcrumb li {
+    color: #B2B7BB;
+    font-size: 13px;
+}
+
+ul.breadcrumb li+li::before {
+    content: '>';
+    color: #B2B7BB;
+    padding: 5px;
+    font-size: 12px;
+}
+
+ul.breadcrumb :last-child {
+    color: #777777;
+}
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    
+    /* breadcrumb  */
+/* 1 > 2 이런식으로 되어있는 곳 */
+.userInfo_breadcrumb {
+    display: inline-block;
+    width: inherit;
+}
+
+ul.breadcrumb {
+    font-family: 'NotoSansCJKkr-Light';
+    list-style: none;
+    float: right;
+    margin: 0 get_vw(115px) 0 0;
+    width: get_vw(152px);
+    height: get_vh(19px);
+}
+
+ul.breadcrumb li {
+    color: #B2B7BB;
+    font-size: get_fontScale(13px);
+}
+
+ul.breadcrumb li+li::before {
+    content: '>';
+    color: #B2B7BB;
+    padding: get_vw(5px) get_vh(5px);
+    font-size: get_fontScale(12px);
+}
+
+ul.breadcrumb :last-child {
+    color: #777777;
+}
+}

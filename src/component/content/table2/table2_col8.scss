@@ -1,0 +1,110 @@
+@import '../../../viewport.scss';
+@import '../../../fontscale.scss';
+
+.table2_tr1_col8, .table2_tr2_col8, .table2_lastLow_col8 {
+    padding: 0 55px 0 20px;
+} 
+
+/* 하단 테이블 표 중에서 헤더 될 부분 */
+.table2_tr1_col8 {
+    width: auto;
+    height: 50px;
+    background-color: #FBFBFD;
+    display: grid;
+    grid-template-columns: 58fr 96fr 136fr 206fr 185fr 265fr 275fr 162fr;
+    align-items: center;
+    text-align: center;
+}
+
+.table2_tr1_col8 div {
+    font-family: 'NotoSansCJKkr-Bold';
+    color: #777777;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.002em;
+}
+
+/* 하단 테이블 표 중에서 내용물이 될 부분 */
+.table2_tr2_col8 {
+    width: auto;
+    height: 65px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #EBEBEF;
+    display: grid;
+    grid-template-columns: 58fr 96fr 136fr 206fr 185fr 265fr 275fr 162fr;
+    align-items: center;
+    text-align: center;
+}
+
+.table2_tr2_col8 div {
+    font-family: 'NotoSansCJKkr-Light';
+    color: #777777;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.002em;
+}
+
+.table2_lastLow_col8 {
+    width: auto;
+    height: 75px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #EBEBEF;
+    display: grid;
+    grid-template-columns: 1068px 320px;
+    align-items: center;
+}
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+    .table2_tr1, .table2_tr2, .table2_lastLow {
+        padding: 0 get_vw(55px) 0 get_vw(20px);
+    } 
+    
+    /* 하단 테이블 표 중에서 헤더 될 부분 */
+    .table2_tr1_col8 {
+        width: auto;
+        height: get_vh(50px);
+        background-color: #FBFBFD;
+        display: grid;
+        grid-template-columns: 58fr 96fr 136fr 206fr 185fr 265fr 275fr 162fr;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .table2_tr1_col8 div {
+        font-family: 'NotoSansCJKkr-Bold';
+        color: #777777;
+        font-size: get_fontScale(11px);
+        line-height: get_fontScale(16px);
+        letter-spacing: 0.002em;
+    }
+    
+    /* 하단 테이블 표 중에서 내용물이 될 부분 */
+    .table2_tr2_col8 {
+        width: auto;
+        height: get_vh(65px);
+        background-color: #FFFFFF;
+        border-top: get_fontScale(1px) solid #EBEBEF;
+        display: grid;
+        grid-template-columns: 58fr 96fr 136fr 206fr 185fr 265fr 275fr 162fr;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .table2_tr2_col8 div {
+        font-family: 'NotoSansCJKkr-Light';
+        color: #777777;
+        font-size: get_fontScale(11px);
+        line-height: get_fontScale(16px);
+        letter-spacing: 0.002em;
+    }
+    
+    .table2_lastLow_col8 {
+        width: auto;
+        height: get_vh(75px);
+        background-color: #FFFFFF;
+        border-top: get_fontScale(1px) solid #EBEBEF;
+        display: grid;
+        grid-template-columns: get_vw(1068px) get_vw(320px);
+        align-items: center;
+    }
+}

@@ -1,0 +1,436 @@
+@import '../viewport.scss';
+@import '../fontscale.scss';
+
+/* login_header */
+.login_header {
+    background-color: #FFFFFF;
+    width: inherit;
+    height: 60px;
+}
+
+.login_div {
+    width: inherit;
+    height: auto;
+    display: flex;
+}
+
+.login_d1 {
+    flex: 266px;
+    padding: 18px 0 16px 120px;
+}
+
+.main_logo {
+    width: 22px;
+    height: 26px;
+}
+
+.login_d2 {
+    flex: 1458px;
+    padding: 18.95px 0 17.89px 0;
+}
+
+.login_a2 {
+    color: #404040;
+    line-height: 22px;
+    font-size : 15px;
+    font-family: 'NotoSansCJKKr-Medium';
+    text-decoration: none;
+}
+
+.login_d3 {
+    flex: 196px;
+}
+
+/*
+피그마엔 로그아웃 버튼 있었는데 없앰.
+
+.login_bu {
+    width: 63px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border: 1px solid #c4c4c4;
+    border-radius: 4.6px;
+    margin: 16px 0;
+    display: flex;
+}
+
+.login_span {
+    color: #C2C2C2;
+    width: 45px;
+    height: 20px;
+    font-size: 12px;
+    font-family: 'NotoSansCJKkr-Light';
+    line-height: 18px;
+    margin: auto;
+}
+*/
+
+/* login_section */
+.login_section {
+    background-color: #F5F7F9;
+    width: 100%;
+    height: 93.5vh;
+    display: flex;
+    align-items: center;
+  }
+
+.loginForm {
+    padding: 40px 0;
+    width: 366px;
+    height: 405px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.login_title, .login_idBox, .login_pwBox, .login_signIn, .login_signUpText, .login_signUp {
+    width: inherit;
+}
+
+.login_title div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.login_title span{
+    width: 60px;
+    height: 30px;
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 20px;
+    line-height: 30px;
+    color: #404040;
+    text-align: center;
+}   
+
+.login_idBox div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.login_idBox input {
+    width: 283px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background: url('../icon/email.svg') no-repeat 5% 50% / 17px;
+    padding-left: 40px;
+    outline: none;
+
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+}
+
+.login_idBox input::placeholder{
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 13px;
+    text-align: left;
+}
+
+.login_idBox input:focus::placeholder{
+    color: transparent;
+}
+
+.login_pwBox div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login_pwBox input {
+    width: 283px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    background: url('../icon/password.svg') no-repeat 5% 50% / 17px;
+    padding-left: 40px;
+    outline: none;
+}
+
+.login_pwBox input::placeholder{
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 13px;
+    text-align: left;
+}
+
+.login_pwBox input:focus::placeholder{
+    color: transparent;
+}
+
+.login_signIn div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 39px;
+}
+
+.login_signIn button {
+    width: 283px;
+    height: 40px;
+    background-color: #127BF2;
+    border-radius: 5px;
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 15px;
+    line-height: 22px;
+    text-align: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login_signUpText div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.login_signUpText span {
+    width: 122px;
+    height: 18px;
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #777777;
+}
+
+.login_signUp div{
+    display: flex;
+    justify-content: center;
+}
+
+.login_signUp button {
+    width: 283px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #404040;
+}
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+/* login_header */
+.login_header {
+    background-color: #FFFFFF;
+    width: inherit;
+    height: get_vh(60px);
+}
+
+.login_div {
+    width: inherit;
+    height: auto;
+    display: flex;
+}
+
+.login_d1 {
+    flex: get_vw(266px);
+    padding: get_vh(18px) 0 get_vh(16px) get_vw(120px);
+}
+
+.main_logo {
+    width: get_vw(22px);
+    height: get_vh(26px);
+}
+
+.login_d2 {
+    flex: get_vw(1458px);
+    padding: get_vh(18.95px) 0 get_vh(17.89px) 0;
+}
+
+.login_a2 {
+    color: #404040;
+    line-height: get_fontScale(22px);
+    font-size : get_fontScale(15px);
+    font-family: 'NotoSansCJKKr-Medium';
+    text-decoration: none;
+}
+
+.login_d3 {
+    flex: get_vw(196px);
+}
+
+/*
+피그마엔 로그아웃 버튼 있었는데 없앰.
+
+.login_bu {
+    width: 63px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border: 1px solid #c4c4c4;
+    border-radius: 4.6px;
+    margin: 16px 0;
+    display: flex;
+}
+
+.login_span {
+    color: #C2C2C2;
+    width: 45px;
+    height: 20px;
+    font-size: 12px;
+    font-family: 'NotoSansCJKkr-Light';
+    line-height: 18px;
+    margin: auto;
+}
+*/
+
+/* login_section */
+.login_section {
+    background-color: #F5F7F9;
+    width: 100%;
+    height: 93.5vh;
+    display: flex;
+    align-items: center;
+  }
+
+.loginForm {
+    padding: get_vh(40px) 0;
+    width: get_vw(366px);
+    height: get_vh(405px);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.login_title, .login_idBox, .login_pwBox, .login_signIn, .login_signUpText, .login_signUp {
+    width: inherit;
+}
+
+.login_title div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: get_vh(30px);
+}
+
+.login_title span{
+    width: get_vw(60px);
+    height: get_vh(30px);
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: get_fontScale(20px);
+    line-height: get_fontScale(30px);
+    color: #404040;
+    text-align: center;
+}   
+
+.login_idBox div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: get_vh(10px);
+}
+
+.login_idBox input {
+    width: get_vw(283px);
+    height: get_vh(40px);
+    background-color: #FFFFFF;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background: url('../icon/email.svg') no-repeat 5% 50% / 17px;
+    padding-left: get_vw(40px);
+    outline: none;
+
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: get_fontScale(13px);
+    line-height: get_fontScale(19px);
+    text-align: left;
+}
+
+.login_idBox input::placeholder{
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: get_fontScale(13px);
+    text-align: left;
+}
+
+.login_idBox input:focus::placeholder{
+    color: transparent;
+}
+
+.login_pwBox div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: get_vh(20px);
+}
+
+.login_pwBox input {
+    width: get_vw(283px);
+    height: get_vh(40px);
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    background: url('../icon/password.svg') no-repeat 5% 50% / 17px;
+    padding-left: get_vw(40px);
+    outline: none;
+}
+
+.login_pwBox input::placeholder{
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: get_fontScale(13px);
+    text-align: left;
+}
+
+.login_pwBox input:focus::placeholder{
+    color: transparent;
+}
+
+.login_signIn div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: get_vh(39px);
+}
+
+.login_signIn button {
+    width: get_vw(283px);
+    height: get_vh(40px);
+    background-color: #127BF2;
+    border-radius: 5px;
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: get_fontScale(15px);
+    line-height: get_fontScale(22px);
+    text-align: get_fontScale(22px);
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login_signUpText div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: get_vh(18px);
+}
+
+.login_signUpText span {
+    width: get_vw(122px);
+    height: get_vh(18px);
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: get_fontScale(12px);
+    line-height: get_fontScale(18px);
+    align-items: center;
+    text-align: center;
+    color: #777777;
+}
+
+.login_signUp div{
+    display: flex;
+    justify-content: center;
+}
+
+.login_signUp button {
+    width: get_vw(283px);
+    height: get_vh(40px);
+    background: #FFFFFF;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: get_fontScale(15px);
+    line-height: get_fontScale(22px);
+    text-align: center;
+    color: #404040;
+}
+}

@@ -1,0 +1,86 @@
+@import './viewport.scss';
+@import './fontscale.scss';
+
+/* 
+  1920px 기준 
+  보다 작으면 스크롤해야하며 사이드 공백은 없음
+  보다 크면 스크롤 안해도 되고 사이드 공백 있음
+  ** 추후 고려 필요 **
+*/
+html {
+  background-color: #FAFAFB;
+}
+
+.App {
+  width: 1920px;
+  height: 937px;
+}
+
+/* header (Header) */
+header {
+    background-color: #127BF2;
+    width: inherit;
+    height: 60px;
+}
+
+.context {
+  width: inherit;
+  height: 877px;
+  background-color: #FAFAFB;
+}
+
+/* nav (Navbar) */
+nav {
+  background-color: white;
+  width: 285px;
+  height: auto;
+  float: left;
+}
+
+/* section (Content) */
+section {
+  background-color: #FAFAFB;
+  width: 1635px;
+  height: auto;
+  float: left;
+}
+
+/* width 1920px 보다 클 때 */
+@media screen and (min-width:1921px) and (min-height:940px) {
+  html {
+    background-color: #FAFAFB;
+  }
+  
+  .App {
+    width: 100%;
+  }
+  
+  /* header (Header) */
+  header {
+      background-color: #127BF2;
+      width: inherit;
+      height: get_vh(60px);
+  }
+  
+  .context {
+    width: inherit;
+    height: get_vh(877px);
+    background-color: #FAFAFB;
+  }
+  
+  /* nav (Navbar) */
+  nav {
+    background-color: white;
+    width: 15%;
+    height: auto;
+    float: left;
+  }
+  
+  /* section (Content) */
+  section {
+    background-color: #FAFAFB;
+    width: 85%;
+    height: auto;
+    float: left;
+  }
+}

@@ -1,0 +1,106 @@
+@import '../../viewport.scss';
+@import '../../fontscale.scss';
+
+@media screen and (min-width:1921px) and (min-height:970px) {
+/* 사이드바 */
+.sidebar {
+    width: auto;
+    height: auto;
+}
+
+.sidebarMenu {
+    padding-top: get_vw(34px);
+}
+
+.sidebarList {
+    list-style-type : none;
+    padding: 0 0 0 get_vw(29px);
+}
+/* 사이드바 메뉴 list중 검은 글씨 인 것 */
+.sidebarListItem_black {
+    font-size: get_fontScale(13px);
+    font-family: 'NotoSansCJKkr-Light';
+    padding: get_vh(21.78px) 0 get_vh(21.78px) 0;
+    height: get_vh(56px);
+}
+
+/* 사이드바 메뉴 list중 노란 글씨 인 것 */
+.sidebarListItem_yellow {
+    font-size: get_fontScale(13px);
+    font-family: 'NotoSansCJKkr-Light';
+    padding: get_vh(21.78px) 0 get_vh(21.78px) 0;
+    height: get_vh(56px);
+    color: #F6C927 !important;
+}
+
+.sidebarListItem_black img, .sidebarListItem_yellow img {
+    margin-right: get_vw(17px);
+}
+
+/* 이미지 마다 크기 지정 */
+.side_icon1 {
+    width: get_vw(12px);
+    height: get_vh(12.44px);
+}
+
+.side_icon2 {
+    width: get_vw(12px);
+    height: get_vh(8.3px);
+}
+
+.side_icon3 {
+    width: get_vw(12px);
+    height: get_vh(12.44px);
+}
+
+.side_icon4 {
+    width: get_vw(13px);
+    height: get_vh(13.48px);
+}
+
+.side_icon5 {
+    width: get_vw(14px);
+    height: get_vh(14.52px);
+}
+
+.side_icon6 {
+    width: get_vw(12px);
+    height: get_vh(12.45px);
+}
+
+.side_icon7 {
+    width: get_vw(12px);
+    height: get_vh(13.48px);
+}
+
+.side_icon8 {
+    width: get_vw(12px);
+    height: get_vh(12.44px);
+}
+
+.side_icon9 {
+    width: get_vw(12px);
+    height: get_vh(16.59px);
+}
+
+.side_icon10 {
+    width: get_vw(12px);
+    height: get_vh(6.22px);
+}
+
+.side_icon11 {
+    width: get_vw(12px);
+    height: get_vh(12.45px);
+}
+
+.side_icon12 {
+    width: get_vw(13px);
+    height: get_vh(13.48px);
+}
+
+.side_icon13 {
+    width: get_vw(12px);
+    height: get_vh(12.44px);
+}
+
+}
